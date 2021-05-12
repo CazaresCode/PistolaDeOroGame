@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PistolaDeOroGame
 {
-    public class Building
+    public abstract class Building
 
     {
         /// <summary> For Randomizer  </summary>
@@ -21,4 +21,89 @@ namespace PistolaDeOroGame
             Lobby = lobby;
         }
     }
+    public class Saloon: Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    public class TradingPost: Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    public class Bank: Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    public class Church: Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    public class Hotel: Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    public class Mine : Building
+    {
+        /// <summary> For Randomizer  </summary>
+        public int Rooms { get; }
+        public List<string> Exits { get; }
+        public string Lobby { get; }
+
+        public Building(int rooms, List<string> exits, string lobby)
+        {
+            Rooms = rooms;
+            Exits = exits;
+            Lobby = lobby;
+        }
+    }
+    
 }
