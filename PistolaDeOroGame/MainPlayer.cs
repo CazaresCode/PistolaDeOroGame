@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PistolaDeOroGame
 {
-        public enum Transportation { horse, spaceship, wagon, walking }
+        public enum Transportation { horse = 1, spaceship, wagon, walking }
     /// <summary>
     /// Main Player is the user. 
     /// </summary>

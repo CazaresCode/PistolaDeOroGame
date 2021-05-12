@@ -5,3 +5,10 @@ C:\Users\alexa\Desktop\funProjects\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\P
 C:\Users\alexa\Desktop\funProjects\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.csproj.CoreCompileInputs.cache
 C:\Users\alexa\Desktop\funProjects\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.exe
 C:\Users\alexa\Desktop\funProjects\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.pdb
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\bin\Debug\PistolaDeOroGame.exe.config
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\bin\Debug\PistolaDeOroGame.exe
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\bin\Debug\PistolaDeOroGame.pdb
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.csprojAssemblyReference.cache
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.csproj.CoreCompileInputs.cache
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.exe
+C:\Users\13172\Source\Repos\PistolaDeOroGame\PistolaDeOroGame\obj\Debug\PistolaDeOroGame.pdb
