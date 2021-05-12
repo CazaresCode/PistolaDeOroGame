@@ -21,70 +21,70 @@ namespace PistolaDeOroGame
             Lobby = lobby;
         }
     }
-    public class Saloon: Building
+    public class Saloon : Building
     {
         /// <summary> For Randomizer  </summary>
         public int Rooms { get; }
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public Saloon (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
             Lobby = lobby;
         }
     }
-    public class TradingPost: Building
+    public class TradingPost : Building
     {
         /// <summary> For Randomizer  </summary>
         public int Rooms { get; }
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public TradingPost (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
             Lobby = lobby;
         }
     }
-    public class Bank: Building
+    public class Bank : Building
     {
         /// <summary> For Randomizer  </summary>
         public int Rooms { get; }
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public Bank (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
             Lobby = lobby;
         }
     }
-    public class Church: Building
+    public class Church : Building
     {
         /// <summary> For Randomizer  </summary>
         public int Rooms { get; }
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public Church (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
             Lobby = lobby;
         }
     }
-    public class Hotel: Building
+    public class Hotel : Building
     {
         /// <summary> For Randomizer  </summary>
         public int Rooms { get; }
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public Hotel (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
@@ -98,7 +98,7 @@ namespace PistolaDeOroGame
         public List<string> Exits { get; }
         public string Lobby { get; }
 
-        public Building(int rooms, List<string> exits, string lobby)
+        public Mine (int rooms, List<string> exits, string lobby)
         {
             Rooms = rooms;
             Exits = exits;
