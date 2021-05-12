@@ -68,8 +68,41 @@ namespace PistolaDeOroGame
                 Console.ReadKey();
             }
 
+
+            //They are at the street:
+
             Console.WriteLine("You finally arrived to the town and it is pretty dark. What would you like to do next?");
+            Building currentBuilding = street;
+
+            bool alive = true;
+            while (alive)
+            {
+                Console.WriteLine(currentBuilding.Lobby);
+
+                string command = Console.ReadLine().ToLower();
+
+                Console.Clear();
+
+                // command to go or exit
+
+                if()
+
+
+                // grab the pistol
+
+
+
+            }
+
+
+            
             Console.ReadKey();
+
+
+
+
+
+
         }
 
         //The type of buildings are below:
