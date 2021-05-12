@@ -10,6 +10,9 @@ namespace PistolaDeOroGame
     {
         static void Main(string[] args)
         {
+            ProgramUI game = new ProgramUI();
+            game.Run();
+
         }
     }
 }
