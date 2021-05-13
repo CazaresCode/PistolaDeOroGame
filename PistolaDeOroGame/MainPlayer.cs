@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace PistolaDeOroGame
 {
-        public enum Transportation { horse = 1, spaceship, wagon, walking }
-    /// <summary>
-    /// Main Player is the user. 
-    /// </summary>
+    public enum Transportation { horse = 1, spaceship, wagon, walking }
+
+    /// <summary> Main Player is the user. </summary>
     public class MainPlayer
     {
         public string Name { get; set; }
@@ -17,16 +16,13 @@ namespace PistolaDeOroGame
         public Transportation Transpo { get; set; }
         public bool IsAlive { get; }
 
+        public MainPlayer() { }
         public MainPlayer(string name, string favFood, Transportation transportation, bool isAlive)
         {
             Name = name;
             FavFood = favFood;
             Transpo = transportation;
             IsAlive = isAlive;
-        }
-
-        public MainPlayer()
-        {
         }
     }
 }
