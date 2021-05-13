@@ -145,72 +145,77 @@ namespace PistolaDeOroGame
                         Console.WriteLine("\n\nYou are running out of time, oil, and perfurme. Better make a move. FAST!.\n\n\n");
                     }
                 }
-                else if (randomRoomInt == 0 && command.StartsWith("go") && currentBuilding == rightMine)
+                if (randomRoomInt == 0 && command.StartsWith("go") && currentBuilding == rightMine)
                 {
                     Console.WriteLine($"You found the gold pistol next to the pickaxe!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 1 && command.StartsWith("go") && currentBuilding == door1Hotel)
+                if (randomRoomInt == 1 && command.StartsWith("go") && currentBuilding == door1Hotel)
                 {
                     Console.WriteLine($"You found the gold pistol under the bed!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 2 && command.StartsWith("go") && currentBuilding == upstairsSaloon)
+                if (randomRoomInt == 2 && command.StartsWith("go") && currentBuilding == upstairsSaloon)
                 {
                     Console.WriteLine($"You found the gold pistol in a box!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 3 && command.StartsWith("go") && currentBuilding == restroomTradingPost)
+                 if (randomRoomInt == 3 && command.StartsWith("go") && currentBuilding == restroomTradingPost)
                 {
                     Console.WriteLine($"You found the gold pistol in the toliet bowl!!!\n\n\n" +
                         $"Ew\n\n\n" +
                         $"BUT! You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 4 && command.StartsWith("go") && currentBuilding == cellarSaloon)
+                if (randomRoomInt == 4 && command.StartsWith("go") && currentBuilding == cellarSaloon)
                 {
                     Console.WriteLine($"You found the gold pistol hidden in a crate of sasparilla!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 5 && command.StartsWith("go") && currentBuilding == backroomTradingPost)
+                if (randomRoomInt == 5 && command.StartsWith("go") && currentBuilding == backroomTradingPost)
                 {
                     Console.WriteLine($"You found the gold pistol behind a false wooden wallpanel!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 6 && command.StartsWith("go") && currentBuilding == kitchenHotel)
+                if (randomRoomInt == 6 && command.StartsWith("go") && currentBuilding == kitchenHotel)
                 {
                     Console.WriteLine($"You found the gold pistol in a rotten buffalo carcass!! YUCK!!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 7 && command.StartsWith("go") && currentBuilding == vaultBank)
+                if (randomRoomInt == 7 && command.StartsWith("go") && currentBuilding == vaultBank)
                 {
                     Console.WriteLine($"You found the gold pistol behind a valuable painting of El Diablo Rojo hanging on the back of the vualt door!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (randomRoomInt == 8 && command.StartsWith("go") && currentBuilding == tellerWindowBank)
+                if (randomRoomInt == 8 && command.StartsWith("go") && currentBuilding == tellerWindowBank)
                 {
                     Console.WriteLine($"You found the gold pistol in a small cubby beneath the register!!\n\n\n\n\n" +
                         $"You won, {player.Name}! Please enjoy a plate of {player.FavFood}.");
                     break;
                 }
-                else if (command.StartsWith("go") && currentBuilding == sanctuaryChurch)
+                if (command.StartsWith("go") && currentBuilding == sanctuaryChurch)
                 {
                     Console.WriteLine($"Yout foot never hits the ground you instantly fall to your death!! Don't you read Edgar Allen Poe!?!? \n\n\n" +
                         $"Try Again, {player.Name}!");
                     alive = false;
                 }
-                else if (command.StartsWith("go") && currentBuilding == straightMine)
+                if (command.StartsWith("go") && currentBuilding == straightMine)
                 {
                     Console.WriteLine($"Its so dark you don't see the large rock in front of you you trip and land face first into a pickaxe instantly dying.!!\n\n" +
                         $"Try Again, {player.Name}!");
                     alive = false;
+                }
+                if (command.StartsWith("go"))
+                {
+                    Console.WriteLine();
+                    
                 }
                 else
                 {
@@ -223,6 +228,7 @@ namespace PistolaDeOroGame
         }
 
         // Item stuff
+
         private enum PistolRoom { rightMine, door1, upstairsSaloon, restroomTradingPost, cellarSaloon, backroomTradingPost, kitchenHotel, vaultBank, tellerWindowBank };
 
         // The buildings and their rooms are below:
