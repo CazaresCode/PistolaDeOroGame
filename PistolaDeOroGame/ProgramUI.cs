@@ -219,7 +219,7 @@ namespace PistolaDeOroGame
                 }
                 else
                 {
-                    Console.WriteLine("\n\n\nYou know I can't help you. If you are lost, GO back to the STREET\n\n\n");
+                    Console.WriteLine("\n\n\nConsarn it follow the instructions! If you are lost, GO back to the STREET\n\n\n");
                 }
             }
             Console.WriteLine("You could travel back in time and play again...\n\n\n\n\n\n" +
